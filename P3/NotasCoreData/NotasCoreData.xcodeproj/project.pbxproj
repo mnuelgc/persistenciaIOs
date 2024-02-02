@@ -16,7 +16,9 @@
 		0D9340682B63AEE000C73855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9340672B63AEE000C73855 /* Assets.xcassets */; };
 		0D93406B2B63AEE000C73855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D9340692B63AEE000C73855 /* LaunchScreen.storyboard */; };
 		0D9340732B63C5AC00C73855 /* ListaNotasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9340722B63C5AC00C73855 /* ListaNotasController.swift */; };
+		0DA39ED42B6BDB0E00880EAD /* Nota+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA39ED32B6BDB0E00880EAD /* Nota+Custom.swift */; };
 		0DD8BE082B6ABC000062399D /* Throttler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD8BE072B6ABC000062399D /* Throttler.swift */; };
+		0DD8BE0A2B6AC66C0062399D /* ListaNotasCDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD8BE092B6AC66C0062399D /* ListaNotasCDController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +33,9 @@
 		0D93406A2B63AEE000C73855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D93406C2B63AEE000C73855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D9340722B63C5AC00C73855 /* ListaNotasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaNotasController.swift; sourceTree = "<group>"; };
+		0DA39ED32B6BDB0E00880EAD /* Nota+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nota+Custom.swift"; sourceTree = "<group>"; };
 		0DD8BE072B6ABC000062399D /* Throttler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttler.swift; sourceTree = "<group>"; };
+		0DD8BE092B6AC66C0062399D /* ListaNotasCDController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaNotasCDController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,8 +52,8 @@
 		0D93404F2B63AEDF00C73855 = {
 			isa = PBXGroup;
 			children = (
+				0DA39ED32B6BDB0E00880EAD /* Nota+Custom.swift */,
 				0D750B122B696C3C00614FA2 /* GestorPicker.swift */,
-				0D9340722B63C5AC00C73855 /* ListaNotasController.swift */,
 				0D93405A2B63AEDF00C73855 /* NotasCoreData */,
 				0D9340592B63AEDF00C73855 /* Products */,
 			);
@@ -66,6 +70,7 @@
 		0D93405A2B63AEDF00C73855 /* NotasCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				0D9340722B63C5AC00C73855 /* ListaNotasController.swift */,
 				0D93405B2B63AEDF00C73855 /* AppDelegate.swift */,
 				0D93405D2B63AEDF00C73855 /* SceneDelegate.swift */,
 				0D93405F2B63AEDF00C73855 /* ViewController.swift */,
@@ -75,6 +80,7 @@
 				0D93406C2B63AEE000C73855 /* Info.plist */,
 				0D9340642B63AEDF00C73855 /* NotasCoreData.xcdatamodeld */,
 				0DD8BE072B6ABC000062399D /* Throttler.swift */,
+				0DD8BE092B6AC66C0062399D /* ListaNotasCDController.swift */,
 			);
 			path = NotasCoreData;
 			sourceTree = "<group>";
@@ -154,6 +160,8 @@
 				0D93405C2B63AEDF00C73855 /* AppDelegate.swift in Sources */,
 				0DD8BE082B6ABC000062399D /* Throttler.swift in Sources */,
 				0D9340732B63C5AC00C73855 /* ListaNotasController.swift in Sources */,
+				0DD8BE0A2B6AC66C0062399D /* ListaNotasCDController.swift in Sources */,
+				0DA39ED42B6BDB0E00880EAD /* Nota+Custom.swift in Sources */,
 				0D9340662B63AEDF00C73855 /* NotasCoreData.xcdatamodeld in Sources */,
 				0D93405E2B63AEDF00C73855 /* SceneDelegate.swift in Sources */,
 				0D750B132B696C3C00614FA2 /* GestorPicker.swift in Sources */,
